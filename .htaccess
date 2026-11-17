@@ -1,0 +1,8 @@
+Options -Indexes
+DirectoryIndex index.php
+
+# Block direct access to internals
+RedirectMatch 404 ^.*/(includes|admin/_[a-z_]+\.php)(/|$)
+<FilesMatch "\.(sql|lock|md|txt|log)$">
+  Require all denied
+</FilesMatch>

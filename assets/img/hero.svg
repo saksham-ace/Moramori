@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9ada0"/><stop offset=".62" stop-color="#9c8f81"/><stop offset="1" stop-color="#7d7064"/></linearGradient>
+    <linearGradient id="arch" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9cfc3"/><stop offset="1" stop-color="#a99a8a"/></linearGradient>
+    <radialGradient id="sun" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#efe6da" stop-opacity=".9"/><stop offset="1" stop-color="#efe6da" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="2400" height="1400" fill="url(#sky)"/>
+  <circle cx="1200" cy="560" r="520" fill="url(#sun)"/>
+  <path d="M860 1400V700a340 340 0 0 1 680 0v700z" fill="url(#arch)" opacity=".85"/>
+  <path d="M960 1400V730a240 240 0 0 1 480 0v670z" fill="#8a7d70" opacity=".55"/>
+  <rect x="0" y="1060" width="2400" height="340" fill="#6f6358" opacity=".55"/>
+  <path d="M0 1060c300-30 600-30 900 0s600 30 900 0 450-25 600-10v350H0z" fill="#64594e" opacity=".5"/>
+  <ellipse cx="1200" cy="1120" rx="420" ry="26" fill="#000" opacity=".12"/>
+</svg>
