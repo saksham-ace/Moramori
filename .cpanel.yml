@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/chasmagh/test.chasmagharnepal.com/
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R includes $DEPLOYPATH
